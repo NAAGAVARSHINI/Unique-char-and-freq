@@ -19,6 +19,9 @@ public class Main {
         // Traverse through map and print frequencies
         for (Map.Entry<Character, Integer> entry : mp.entrySet()) {
             count += 1;
+            if(entry.getValue() ==1){
+                System.out.println(entry.getKey());
+            }
             //System.out.println(entry.getKey() +" "+ entry.getValue()); To get Frequency
 
         }
